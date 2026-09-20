@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+     <h1>REGISTRO DE USUARIOS</h1>
+        <form>
+            <div>
+                <label for="fullname">NOMBRE COMPLETO</label>
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Howard P. Lovecraft"
+                        maxlength="15"
+                        minlength="10"
+                        required>
+            </div>
+
+            <div>
+                <label for="email">CORREO ELECTRONICO</label>
+                    <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="HowardLovecraft@gmail.com"
+                        required>
+            </div>
+
+            <div>
+                <label for="password">CONTRASEÑA</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required>     
+            </div>
+                
+            <div>
+                <span>SELECCIONE SU LENGUAJE (unica opción)<span>
+            </div>
+
+            <div>
+                <label for="html">HTML</label>
+                    <input
+                        type="radio"
+                        name="lenguaje-favorito"
+                        id="html">
+            </div>
+
+            <div>
+                <label for="css">CSS</label>
+                    <input
+                        type="radio"
+                         name="lenguaje-favorito"
+                        id="css">
+            </div>
+
+            <div>
+                <label for="javascript">JAVASCRIPT</label>
+                    <input
+                        type="radio"
+                        name="lenguaje-favorito"
+                        id="javascript">
+            </div>
+              
+            <div>
+                <span>SELECCIONE TODOS LOS LENGUAJES QUE CONOCE (opción multiple)<span>
+            </div>
+
+            <div>
+                <label for="css">CSS</label>
+                    <input 
+                        type="checkbox"
+                        name="lenguajes-conocidos"
+                        id="css">
+            </div>
+
+            <div>
+                <label for="html">HTML</label>
+                    <input
+                        type="checkbox"
+                        name="lenguajes-conocidos"
+                        id="html">
+            </div>
+
+            <div>
+                <label for="javascript">JAVASCRIPT</label>
+                    <input
+                        type="checkbox"
+                        name="lenguajes-conocidos"
+                        id="javascript">
+            </div>
+
+            <div>
+                <label for="phyton">PHYTON</label>
+                    <input
+                        type="checkbox"
+                        name="lenguajes-conocidos"
+                        id="phyton">
+            </div>     
+                
+            <div>
+                <label for="pais">ELEGÍ TU PAÍS DE ORIGEN:</label>
+                    <select id="pais" name="pais">
+                        <option value="AR">ARGENTINA</option>
+                        <option value="BR">BRASIL</option>
+                        <option value="CH">CHILE</option>
+                        <option value="VZ">VENEZUELA</option>
+                        <option value="UR">URUGUAY</option>   
+                        <option value="NO" selected disabled>No Seleccionado</option>            
+                    </select>
+            </div>
+              
+            <div>
+                <label for="comentarios">DEJANOS UN COMENTARIO</label>
+                    <textarea
+                        name="comentario"
+                        id="comentario"
+                        placeholder="Escribí acá tu comentario"
+                        rows="10"
+                        cols="30"
+                        maxlength="300">
+                    </textarea>
+            </div>
+               
+            <div>
+                <label for="documentacion">SUBIR DOCUMENTACION</label>
+                    <input
+                        type="file"
+                        name="documentacion"
+                        id="documentacion">
+            </div>
+
+            <div>
+                <button type="submit">ENVIAR</button>
+            </div>
+                
+        </form>
+</body>
+</html>
