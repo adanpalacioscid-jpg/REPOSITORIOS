@@ -6,3 +6,22 @@ Primero normalizamos el CSS utilizando *{padding: 0; margin 0; box-sizing: borde
 PROPIEDAD NUEVA:
                 width: 100vw (V W es la altura del VieWport)
                 height: 100vh (VH es el ancho del VieWport)                
+
+                FLEXBOX
+
+Es una herramienta que tiene CSS que nos permite acomodar a los elementos. Se basa
+en un Padre ordenando a sus hijos.
+                            <div>Padre
+                                    <div>HIJO 1</div>
+                                    <div>HIJO 2</div>
+                            </div>
+Para lograr acomodar a los hijos lo primero que hay que hacer es, en el elemento PADRE
+se debe colocar DISPLAY: FLEX para habilitar que el elemento sea flexible. Además, automaticamente
+se habilitan otras propiedade:
+                            FLEX-DIRECTION: Va a marcar la dirección del FLEXBOX (Horizontal-fila o Vertical-columna)
+                                           (ROW para fila - COLUMN para columna) 
+                            JUSTIFY-CONTENT: si los elementos son ROW va a moverlos en sentido Horizontal, si es COLUMN vertical
+                                             Utiliza los valores START-CENTER-END
+                            ALIGN-CONTENT:   Si lo elementos son ROW va a moverlos en sentido Vertical, si es COLUMN Horizontal       
+
+El elemento GAP permite trabajar el espaciado entre hijos
