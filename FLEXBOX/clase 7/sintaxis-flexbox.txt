@@ -1,0 +1,8 @@
+                
+                SINTAXIS FLEXBOX CLASE 7
+
+Primero normalizamos el CSS utilizando *{padding: 0; margin 0; box-sizing: border-box}
+
+PROPIEDAD NUEVA:
+                width: 100vw (V W es la altura del VieWport)
+                height: 100vh (VH es el ancho del VieWport)                
