@@ -17,11 +17,17 @@ en un Padre ordenando a sus hijos.
                             </div>
 Para lograr acomodar a los hijos lo primero que hay que hacer es, en el elemento PADRE
 se debe colocar DISPLAY: FLEX para habilitar que el elemento sea flexible. Además, automaticamente
-se habilitan otras propiedade:
-                            FLEX-DIRECTION: Va a marcar la dirección del FLEXBOX (Horizontal-fila o Vertical-columna)
-                                           (ROW para fila - COLUMN para columna) 
-                            JUSTIFY-CONTENT: si los elementos son ROW va a moverlos en sentido Horizontal, si es COLUMN vertical
-                                             Utiliza los valores START-CENTER-END
-                            ALIGN-CONTENT:   Si lo elementos son ROW va a moverlos en sentido Vertical, si es COLUMN Horizontal       
+se habilitan otras propiedades:
+                
+        FLEX-DIRECTION: Va a marcar la dirección del FLEXBOX (Horizontal-fila o Vertical-columna)
+                                (ROW para fila - COLUMN para columna) 
+        JUSTIFY-CONTENT: si los elementos son ROW va a moverlos en sentido Horizontal, si es COLUMN vertical
+                        Utiliza los valores START-CENTER-END
+                        Además puede tomar valores de SPACING (espacio entre los elementos)
+                                -SPACE-BETWEEN el espacio sobrante lo divide lo máximo posible entre cada hijo sin tener en cuenta los costados
+                                -SPACE-AROUND espacia entre los hijos y en cuanto a los costados, lo divide a la mitad del espacio entre los hijos
+                                -SPACE-EVENLY espacia, del espacio sobrante, espacia equitativamente entre cada hijo.
+
+        ALIGN-CONTENT:   Si lo elementos son ROW va a moverlos en sentido Vertical, si es COLUMN Horizontal       
 
 El elemento GAP permite trabajar el espaciado entre hijos
