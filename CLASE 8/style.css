@@ -1,0 +1,20 @@
+
+
+/*Por defecto los elementos tienen un display (por defecto cada elemento tiene un display) :
+
+-Inline (ejemplo span, a, label) Solo ocupa el ancho de su contenido, no puede cambiar sus dimensiones (width y height no funcionan). Cuando hay 
+más de un elemento inline, si hay espacio disponible se alinean con otros elementos inline o inline-block. 
+Solo pueden recibir margin y padding horizontal. Para cambiar su display: Inline por defecto es necesario modificar en su HTML por la propiedad
+DISPLAY: INLINE-BLOCK
+
+-Block (ejemplo div, h1 a h6, p, cualquier etiqueta semántica, form) Ocupan todo el ancho de la página por defecto, si pueden cambiar sus dimensiones (width y height). Cuando hay
+más de un elemento block, los elementos en bloque no pueden alinearse, uno va a abajo del otro. 
+Pueden recibir margin y padding
+
+-Inline-Block (ejemplo button, input, select, textarea, img, iframe) Solo ocupa el ancho de su propio contenido si pueden cambiar sus dimensiones (width y height) Cuando hay 
+más de un elemento inline o inline-block, si hay espacio disponible se alinean con otros elementos inline o inline-block.
+Pueden recibir margin y padding
+
+
+
+*/
