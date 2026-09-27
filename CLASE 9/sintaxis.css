@@ -1,0 +1,26 @@
+
+/*
+Hay 4 tipos de POSITION:
+
+-STATIC: Es el valor por defecto de POSITION. Este position
+no hace nada
+
+-RELATIVE: Nos permite posicionar un elemento desde su posición
+relativa. Cuando a un elemento le damos la POSITION: RELATIVE
+se le habilitan 4 propiedades:
+                            -TOP: empuja de arriba hacia abajo
+                            -BOTTOM: empuja de abajo hacia arriba
+                            -LEFT: empuja de izquierda a derecha
+                            -RIGHT: empuja de derecha a izquierda
+Si tu elemento es distinto a Position Static se pueden usar estas
+propiedades.
+La buena práctica dice que de estas propiedades solo se deben usar
+dos, por ejemplo, TOP o BOTTOM, LEFT o RIGHT
+
+-ABSOLUTE: Nos permite posicionar un elemento desde el padre más
+cercano NO STATIC o usará directamente el viewport. El elemento se superpone
+a todo desde el padre, deja de estar en el mismo plano que sus
+hermanos. Esto es un mal comportamiento
+
+-FIXED: Nos permite posicionar y anclar un elemento al viewport.
+*/
