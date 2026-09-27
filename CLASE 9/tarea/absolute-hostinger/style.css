@@ -1,0 +1,88 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: DM Sans, sans-serif;
+    
+}
+
+body{
+    background-color: rgb(233,233,255);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 20px;
+
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #18181a;
+  margin-bottom: 8px;
+  font-size: 40px;
+}
+
+.idea{
+    font-size: 48px;
+    color: #18181A;
+}
+
+.Agente{
+    font-family: 'DM Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #8c52ff;
+  background-image: linear-gradient(to right, #4a80ff, #8c52ff, #e052ff); /*buscados con IA*/
+  -webkit-background-clip: text;
+  background-clip: text; 
+}
+
+.input-conteiner{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 680px;
+  padding: 8px 10px 8px 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(140, 82, 255, 0.15);
+  box-shadow: 0px 8px 24px rgba(140, 82, 255, 0.08);
+  margin-top: 15px;
+}
+
+input{
+    border: none;
+    outline: none;
+    min-width: none; /*me ayude con google*/
+    flex: 1; /*me ayude con google*/
+}
+
+.plan{
+    font-size: 14px;
+    color: gray;
+}
+
+button{
+    color: white;
+    background-color: #673de6;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+}
