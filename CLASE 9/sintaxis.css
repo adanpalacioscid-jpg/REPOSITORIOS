@@ -22,5 +22,8 @@ cercano NO STATIC o usará directamente el viewport. El elemento se superpone
 a todo desde el padre, deja de estar en el mismo plano que sus
 hermanos. Esto es un mal comportamiento
 
+-STICKY: Nos permite posicionar y anclar un elemento dentro de un padre y conservando
+su posición relativa
+
 -FIXED: Nos permite posicionar y anclar un elemento al viewport.
 */
